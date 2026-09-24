@@ -14,4 +14,4 @@ jobs:
       steps:
       - uses: actions/checkout@v4
       - run: docker run web
-      - run: docker build -t 8f7cbbcb394fac624a377bb2421ebc7e6c2c8e14823aea73845c517d437b232a
+      - run: bash container.sh
