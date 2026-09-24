@@ -13,5 +13,5 @@ jobs:
       
       steps:
       - uses: actions/checkout@v4
-      - run: docker run hello-world
-      - run: docker build -t hello-world .
+      - run: docker run web
+      - run: docker build -t web
